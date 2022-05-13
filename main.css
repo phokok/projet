@@ -24,6 +24,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    z-index: 1030;
 
 }
 
@@ -68,9 +70,9 @@ header{
 .lien, a:hover {
     color: green;
 }
-
+ 
  .total{
-     margin: auto;
+     margin:  auto;
      
  }
 
@@ -79,7 +81,6 @@ header{
     width: 100%;
     height: 150vh;
 
-    
 }
 
 
@@ -110,11 +111,15 @@ header{
 
 .competence{
     background-color: black;
+    padding: 0px;
 }
 .competence h1, #tarifs h1, .contact h1, .comentaire h1{
     text-align: center;
     padding-top: 5%;
     font-size: 3em;
+}
+.competence h1{
+    margin-top: px;
 }
 .flex{
     display: flex;
@@ -379,6 +384,138 @@ footer{
 .locale iframe{
     padding-top: 0;
 }
+
+
+/*  responsive design  */
+
+
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: ;
+    }
+
+    header{
+        width: 60%;
+        height: 5vh;
+        background-color:black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        z-index: 1030;
+    }
+
+    .flo{
+        background-image: url(salon.jpg);
+        width: 208%;
+        height: 40vh;
+    
+    }
+
+    .flo h1{
+        position: absolute;
+        bottom: ;
+         margin-top: 33%;
+         margin-bottom: ;
+         font-size: 2em;
+         padding-left: 310px;
+         animation-duration: 5s;
+        animation-name: slidein;
+        
+     }
+
+     .franc{
+        width: 210%;
+        height: 30vh;
+        background-color: white;
+        border: 1px solid black;
+        margin-bottom: 0;
+       
+   }
+   
+   
+     
+    .franc a {
+       width: 50px;
+       height: 10px;
+       padding-bottom: 0.3%;
+       text-decoration: none;
+       background-color: black;
+       border: 1px solid black;
+   
+   }
+
+
+
+
+
+
+
+    /* debut partie competence*/
+
+.competence{
+    width: 210%;
+    height: 150vh;
+    background-color: black;
+    padding: px;
+
+
+}
+.competence h1, #tarifs h1, .contact h1, .comentaire h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 3em;
+}
+.competence h1{
+    margin-top: px;
+}
+.flex{
+    display: inline-block;
+    justify-content: space-around;
+    padding: 10% ;
+   
+}
+.coiff{
+    width:25% ;
+    margin:5px;
+    padding: 20px;
+    border: 1px solid  ;
+    background-color: white; 
+}
+
+
+
+.coiff img{
+    padding-left: 20%;
+}
+
+.coiff h3{
+    padding-left: 35%;
+}
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
 
 
 
