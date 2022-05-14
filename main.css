@@ -15,8 +15,6 @@ body{
 
 
 
-
-
 header{
     width: 100%;
     height: 20vh;
@@ -24,14 +22,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
+   
     z-index: 1030;
+    
 
 }
 
 .flo h1{
-    position: absolute;
-    bottom: ;
+    text-align: center;
      margin-top: 27%;
      margin-bottom: ;
      font-size: 5em;
@@ -107,7 +105,7 @@ header{
 
 
 
-   /* debut partie competence*/
+   /*  debut partie competence  */
 
 .competence{
     background-color: black;
@@ -148,7 +146,7 @@ header{
     padding-left: 35%;
 }
 
-/* debut parti tarifs*/
+/*  debut parti tarifs  */
  
    /* homme */
 
@@ -160,6 +158,7 @@ header{
 
 .goch_droit{
     display: flex;
+    wi
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 4%;
@@ -181,7 +180,7 @@ header{
 
 
 
-/* debut femme*/
+/*  debut femme  */
 
 
 .grande{
@@ -386,7 +385,10 @@ footer{
 }
 
 
-/*  responsive design  */
+
+
+/*  responsive design DE MON SITE WEB FORMELLE */
+
 
 
 @media only screen and (max-width: 700px) {
@@ -451,7 +453,7 @@ footer{
 
 
 
-    /* debut partie competence*/
+    /* debut partie competence */
 
 .competence{
     width: 210%;
@@ -495,6 +497,9 @@ footer{
 
    
     
+
+
+
 
 
 
