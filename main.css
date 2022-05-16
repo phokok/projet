@@ -22,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
+    position: fixed;
     z-index: 1030;
     
 
@@ -30,11 +30,11 @@ header{
 
 .flo h1{
     text-align: center;
-     margin-top: 27%;
-     margin-bottom: ;
-     font-size: 5em;
-     padding-left: 220px;
-     animation-duration: 5s;
+    padding-top: 30%;
+    margin: 0;
+    font-size: 5em;
+    padding-left: 10px;
+    animation-duration: 5s;
     animation-name: slidein;
     
  }
@@ -83,11 +83,11 @@ header{
 
 
  .franc{
-     width: 100%;
-     height: 45vh;
-     background-color: white;
-     border: 1px solid black;
-     margin-bottom: 0;
+    width: 100%;
+    height: 45vh;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 0;
     
 }
 
@@ -96,6 +96,7 @@ header{
  .franc a {
     width: 50px;
     height: 10px;
+    padding: 5px;
     padding-bottom: 0.3%;
     text-decoration: none;
     background-color: black;
@@ -158,7 +159,6 @@ header{
 
 .goch_droit{
     display: flex;
-    wi
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 4%;
@@ -211,6 +211,10 @@ header{
 }
 .deux{
     margin-left: 10%;
+    font-size: 1.2em;
+}
+.un{
+    font-size: 1.1em;
 }
 
 
@@ -354,14 +358,39 @@ footer{
    
 }
 .tag p{
-    padding-top: 25%;
+    padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
 } 
-.tag h4{
-    padding-top:15% ;
+.tag h3{
+     padding-bottom: %;
     padding-left: 60%;
 }
+
+
+.bl{
+    width: 40%;
+    height: 35%;
+   
+}
+
+
+.blan{
+    width: 38%;
+    height: 35%;
+    border-radius: %;
+}
+
+
+.blanc{
+    width: 40%;
+    height: 35%;
+   
+}
+
+
+
+
 
 
 /* debut Nos partenaires */
@@ -371,6 +400,7 @@ footer{
 .partenaires{
     text-align: center;
     margin: 15px;
+    margin-bottom: 45px;
 }
 
 .partenaires img{
@@ -404,7 +434,7 @@ footer{
         align-items: center;
         justify-content: space-around;
         position: fixed;
-        z-index: 1030;
+        z-index: 30;
     }
 
     .flo{
@@ -446,9 +476,6 @@ footer{
        border: 1px solid black;
    
    }
-
-
-
 
 
 
