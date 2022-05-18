@@ -18,6 +18,7 @@ body{
 header{
     width: 100%;
     height: 20vh;
+    color: white;
     background-color:black;
     display: flex;
     align-items: center;
@@ -28,8 +29,11 @@ header{
 
 }
 
-.flo h1{
+
+
+.flo h2{
     text-align: center;
+    color: white;
     padding-top: 30%;
     margin: 0;
     font-size: 5em;
@@ -75,9 +79,9 @@ header{
  }
 
  .flo{
-    background-image: url(image_icone\salon.jpg);
+    background-image: url(salon.jpg);
     width: 100%;
-    height: 150vh;
+    height: 100vh;
 
 }
 
@@ -97,6 +101,7 @@ header{
  .franc a {
     width: 50px;
     height: 10px;
+    color: white;
     padding: 5px;
     padding-bottom: 0.3%;
     text-decoration: none;
@@ -113,9 +118,10 @@ header{
     background-color: black;
     padding: 0px;
 }
-.competence h1, #tarifs h1, .contact h1, .comentaire h1{
+.competence h2, .contact h2, .comentaire h2{
     text-align: center;
     padding-top: 5%;
+    color: white;
     font-size: 3em;
 }
 .competence h1{
@@ -151,6 +157,17 @@ header{
 /*  debut parti tarifs  */
  
    /* homme */
+
+
+
+
+   #tarifs h2{
+       color: black;
+       text-align: center;
+       padding-top: 0%;
+       margin-bottom: 10%;
+       font-size: 3em;
+   }
 
 .grand{
     display: flex;
@@ -416,6 +433,7 @@ footer{
 
 .locale iframe{
     padding-top: 0;
+    width: 100%;
 }
 
 
@@ -431,8 +449,9 @@ footer{
     }
 
     header{
-        width: 90%;
+        width: 100%;
         height: 8vh;
+        color: white;
         background-color:black;
         align-items: flex-start;
         justify-content: space-between;
@@ -441,15 +460,16 @@ footer{
     }
 
     .flo{
-        background-image: url(image_icone\salon.jpg);
-        width: 100%;
-        height: vh;
+        background-image: url(salon.jpg);
+        width: 140%;
+        height: 40vh;
     }
 
 
-    .flo h1{
+    .flo h2{
         text-align: center;
         padding-top: 30%;
+        color: white;
         margin: 0;
         font-size: 1.2em;
         padding-left: 10px;
@@ -505,7 +525,7 @@ footer{
    
     .franc{
         text-align: center;
-       width: 85%;
+       width: 140%;
        height: 45vh;
        margin-right: 10%;
        background-color: white;
@@ -519,6 +539,7 @@ footer{
     .franc a {
        width: 50px;
        height: 10px;
+       color: white;
        padding: 5px;
        padding-bottom: 0.3%;
        text-decoration: none;
@@ -534,13 +555,14 @@ footer{
    .competence{
        background-color: #333;
        padding: 0px;
+       width: 140%;
    }
-   .competence h1, #tarifs h1, .contact h1, .comentaire h1{
+   .competence h2, .contact h2, .comentaire h2{
        text-align: center;
        padding-top: 5%;
        font-size: 3em;
    }
-   .competence h1{
+   .competence h2{
        margin-top: px;
        font-size: 2em;
        margin-right: 15%;
@@ -554,6 +576,7 @@ footer{
    .coiff{
        width: 70% ;
        margin:5px;
+       margin-left: 13%;
        padding: 20px;
        border: 1px solid;
        background-color: white; 
@@ -575,6 +598,16 @@ footer{
    /*  debut parti tarifs  */
     
       /* homme */
+
+
+
+      #tarifs h2{
+        color: black;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 10%;
+        font-size: 3em;
+    }
 
 
       #tarifs{
@@ -687,6 +720,7 @@ footer{
    
    .contact{
        background-color: black;
+       width: 140%;
        text-align: center;
        color: white;
        padding-bottom: 20px;
@@ -738,7 +772,7 @@ footer{
    .floflo{
        margin: 15px;
        text-align: center;
-       margin-right: 15%;
+       margin-left: 45%;
    }
    
    .floflo a{
@@ -759,7 +793,7 @@ footer{
    /*  footer  */
    
    footer{
-       width: 100%;
+       width: 140%;
        height: 15px;
        background-color: black;
        padding: 6px;
@@ -771,6 +805,7 @@ footer{
    
    .comentaire{
        background-color: #333;
+       width: 140%;
       
        
    }
@@ -781,7 +816,7 @@ footer{
        background-color: #C4C4C4;
        width: 300px;
        height: 300px;
-       margin-left: 5%;
+       margin-left: 25%;
        margin-bottom: 60px;
        animation: mymove 5s;
        display: inline-block;
@@ -844,10 +879,12 @@ footer{
        text-align: center;
        margin: 15px;
        margin-bottom: 45px;
+       margin-left: 45%;
    }
    
    .partenaires img{
        margin-right: 45px;
+       display: inline-flex;
    }
    /*  localisation */
    
@@ -855,7 +892,7 @@ footer{
    
    .locale iframe{
        padding-top: 0;
-       width: 100%;
+       width: 140%;
        height: 50%;
    }
    
