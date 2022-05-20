@@ -1,37 +1,37 @@
-@font-face{
+@font-face {
     font-family: 'vollkorn-SemiBold';
     src: url('police\static\Vollkorn-SemiBold.ttf');
 
 }
 
-*{
+* {
     font-family: 'vollkorn-SemiBold';
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
 
 
-header{
+header {
     width: 100%;
     height: 20vh;
     color: white;
-    background-color:black;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
     z-index: 1030;
-    
+
 
 }
 
 
 
-.flo h2{
+.flo h2 {
     text-align: center;
     color: white;
     padding-top: 30%;
@@ -40,68 +40,68 @@ header{
     padding-left: 10px;
     animation-duration: 5s;
     animation-name: slidein;
-    
- }
+
+}
 
 
-  
-  @keyframes slidein {
+
+@keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%;
+        margin-left: 100%;
+        width: 300%;
     }
-  
+
     to {
-      margin-left: 0%;
-      width: 70%;
+        margin-left: 0%;
+        width: 70%;
     }
-  }
-  
-
- .lien>a{
-     margin: 8px;
-     text-decoration: none;
-     color: white;
-     -webkit-transition: color 2s;
-     transition: color 2s;
-    
- }
+}
 
 
+.lien>a {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 2s;
+    transition: color 2s;
 
-.lien, a:hover {
+}
+
+
+
+.lien,
+a:hover {
     color: green;
 }
- 
- .total{
-     margin:  auto;
-     
- }
 
- .flo{
+.total {
+    margin: auto;
+
+}
+
+.flo {
     background-image: url(salon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 140vh;
-
 }
 
 
- .franc{
+.franc {
     text-align: center;
     width: 100%;
     height: 45vh;
     padding-top: 5%;
     background-color: white;
     border: 1px solid black;
-    
+
 }
 
 
-  
- .franc a {
+
+.franc a {
     width: 50px;
     height: 10px;
     color: white;
@@ -115,70 +115,78 @@ header{
 
 
 
-   /*  debut partie competence  */
+/*  debut partie competence  */
 
-.competence{
+.competence {
     background-color: black;
     padding: 0px;
 }
-.competence h2, .contact h2, .comentaire h2{
+
+.competence h2,
+.contact h2,
+.comentaire h2 {
     text-align: center;
     padding-top: 5%;
     color: white;
     font-size: 3em;
 }
-.competence h1{
+
+.competence h1 {
     margin-top: px;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: space-around;
-    padding: 10% ;
-   
+    padding: 10%;
+
 }
-.coiff{
-    width:25% ;
-    margin:5px;
+
+.coiff {
+    width: 25%;
+    margin: 5px;
     padding: 20px;
-    border: 1px solid  ;
-    background-color: white; 
-    animation: fifi 5s infinite;   
+    border: 1px solid;
+    background-color: white;
+    animation: fifi 5s infinite;
 }
 
 @keyframes fifi {
-    50% {width: 350px;}
-  }
+    50% {
+        width: 350px;
+    }
+}
 
-.coiff img{
+.coiff img {
     padding-left: 20%;
 }
 
-.coiff h3{
+.coiff h3 {
     padding-left: 35%;
 }
 
 /*  debut parti tarifs  */
- 
-   /* homme */
+
+/* homme */
 
 
 
 
-   #tarifs h2{
-       color: black;
-       text-align: center;
-       padding-top: 0%;
-       margin-bottom: 10%;
-       font-size: 3em;
-   }
-
-.grand{
-    display: flex;
-    justify-content: space-between;
-    
+#tarifs h2 {
+    color: black;
+    text-align: center;
+    padding-top: 0%;
+    margin-bottom: 10%;
+    font-size: 3em;
 }
 
-.goch_droit{
+.grand {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.goch_droit {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
@@ -186,13 +194,13 @@ header{
 }
 
 
- 
-.droit{
-    margin-bottom:%;
 
-} 
-   
-.goch img{
+.droit {
+    margin-bottom: %;
+
+}
+
+.goch img {
     width: 60%;
     height: 95%;
     margin-left: 20%;
@@ -204,37 +212,39 @@ header{
 /*  debut femme  */
 
 
-.grande{
+.grande {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.gauch_droite{
+.gauch_droite {
     display: flex;
     margin-left: 14%;
     margin-bottom: 4%;
 }
 
 
- 
-.droite{
+
+.droite {
     margin-left: 20%;
-    margin-bottom:;
-    
-} 
+    margin-bottom: ;
 
-   
+}
 
-   
-.gauch img{
+
+
+
+.gauch img {
     margin-left: 19%;
 }
-.deux{
+
+.deux {
     margin-left: 10%;
     font-size: 1.2em;
 }
-.un{
+
+.un {
     font-size: 1.1em;
 }
 
@@ -243,7 +253,7 @@ header{
 /* debut enfant */
 
 
-.gaach img{
+.gaach img {
     width: 140%;
     height: 100%;
     margin-left: 95%;
@@ -251,12 +261,12 @@ header{
 
 }
 
-.gaach_droitee{
+.gaach_droitee {
     display: flex;
     padding-bottom: 5%;
 }
 
-.droitee{
+.droitee {
     margin-left: 40%;
 }
 
@@ -264,11 +274,11 @@ header{
 
 /*  debut parti contact  */
 
-.contact h1{
+.contact h1 {
     padding-top: 45px;
 }
 
-.contact{
+.contact {
     background-color: black;
     text-align: center;
     color: white;
@@ -276,39 +286,42 @@ header{
 }
 
 
-.conta{
+.conta {
     display: flex;
     justify-content: center;
-  
+
 }
 
-.conta1{
-    text-align:;
+.conta1 {
+    text-align: ;
     height: auto;
-    
+
 }
 
-.cont{
+.cont {
     display: flex;
     margin: 5px;
 }
 
-.milio{
+.milio {
     margin: 13px;
 }
 
-.conta2{
+.conta2 {
     margin-bottom: ;
 }
 
-.milio, .rendez{
+.milio,
+.rendez {
     margin: 17px;
 }
-.conta1, .conta2{
+
+.conta1,
+.conta2 {
     margin: 10px;
 }
 
-.ecart{
+.ecart {
     padding: 7px;
 }
 
@@ -317,21 +330,22 @@ header{
 
 /* debuit parti nous suivre */
 
-.floflo{
+.floflo {
     margin: 15px;
     text-align: center;
 }
 
-.floflo a{
+.floflo a {
     padding-right: 30px;
     text-decoration: none;
     -webkit-transition: color 2s;
-    transition: color black  2s;
+    transition: color black 2s;
 }
 
 
 
-.floo, a:hover {
+.floo,
+a:hover {
     color: black;
 }
 
@@ -339,7 +353,7 @@ header{
 
 /*  footer  */
 
-footer{
+footer {
     width: 100%;
     height: 15px;
     background-color: black;
@@ -350,18 +364,18 @@ footer{
 
 /*  debuit partie les commentaires */
 
-.comentaire{
+.comentaire {
     background-color: black;
-   
-    
+
+
 }
 
-.tag_tag{
+.tag_tag {
     display: flex;
 
 }
 
-.tag{
+.tag {
     background-color: #C4C4C4;
     width: 338px;
     height: 300px;
@@ -370,45 +384,50 @@ footer{
 }
 
 @keyframes mymove {
-    50% {width: 400px;}
-  }
+    50% {
+        width: 400px;
+    }
+}
 
-.comentaire h1{
+.comentaire h1 {
     color: white;
 }
-.tog_tag{
+
+.tog_tag {
     display: flex;
     justify-content: space-evenly;
-   
+
 }
-.tag p{
+
+.tag p {
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-} 
-.tag h3{
-     padding-bottom: %;
+}
+
+.tag h3 {
+    padding-bottom: %;
     padding-left: 60%;
 }
 
 
-.bl{
+.bl {
     width: 40%;
     height: 35%;
-   
+
 }
 
 
-.blan{
+.blan {
     width: 38%;
     height: 35%;
 }
 
 
-.blanc{
+.blanc {
     width: 40%;
     height: 35%;
-   
+
 }
 
 
@@ -420,20 +439,21 @@ footer{
 
 
 
-.partenaires{
+.partenaires {
     text-align: center;
     margin: 15px;
     margin-bottom: 45px;
 }
 
-.partenaires img{
+.partenaires img {
     margin-right: 45px;
 }
+
 /*  localisation */
 
 
 
-.locale iframe{
+.locale iframe {
     padding-top: 0;
     width: 100%;
 }
@@ -445,30 +465,30 @@ footer{
 
 
 
-@media all and (min-width: 400px) and (max-width: 700px) {
+@media all and (min-width: 300px) and (max-width: 700px) {
     body {
-      background-color: ;
+        background-color: ;
     }
 
-    header{
+    header {
         width: 100%;
         height: 8vh;
         color: white;
-        background-color:black;
+        background-color: black;
         align-items: flex-start;
         justify-content: space-between;
         position: fixed;
         z-index: 30;
     }
 
-    .flo{
+    .flo {
         background-image: url(salon.jpg);
         width: 140%;
         height: 40vh;
     }
 
 
-    .flo h2{
+    .flo h2 {
         text-align: center;
         padding-top: 30%;
         color: white;
@@ -477,24 +497,24 @@ footer{
         padding-left: 10px;
         animation-duration: 5s;
         animation-name: slidein;
-        
-     }
-    
-    
-      
-      @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%;
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 70%;
-        }
-      }
 
-      .lien>a{
+    }
+
+
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 70%;
+        }
+    }
+
+    .lien>a {
         margin: 3px;
         display: inline-block;
         text-decoration: none;
@@ -502,108 +522,118 @@ footer{
         -webkit-transition: color 2s;
         transition: color 2s;
         font-size: 0.1em;
-       
+
     }
 
 
-    header, .lien>a{
+    header,
+    .lien>a {
         padding: 10px;
     }
 
-    
-   
-   
-   
-   .lien, a:hover {
-       color: green;
-   }
-    
-    .total{
-        margin:  auto;
-        
+
+
+
+
+    .lien,
+    a:hover {
+        color: green;
     }
-   
-   
-   
-    .franc{
+
+    .total {
+        margin: auto;
+
+    }
+
+
+
+    .franc {
         text-align: center;
-       width: 140%;
-       height: 45vh;
-       margin-right: 10%;
-       background-color: white;
-       border: 1px solid black;
-       margin-bottom: 0;
-       
-   }
-   
-   
-     
+        width: 140%;
+        height: 45vh;
+        margin-right: 10%;
+        background-color: white;
+        border: 1px solid black;
+        margin-bottom: 0;
+
+    }
+
+
+
     .franc a {
-       width: 50px;
-       height: 10px;
-       color: white;
-       padding: 5px;
-       padding-bottom: 0.3%;
-       text-decoration: none;
-       background-color: black;
-       border: 1px solid black;
-   
-   }
-   
-   
-   
-      /*  debut partie competence  */
-   
-   .competence{
-       background-color: #333;
-       padding: 0px;
-       width: 140%;
-   }
-   .competence h2, .contact h2, .comentaire h2{
-       text-align: center;
-       padding-top: 5%;
-       font-size: 3em;
-   }
-   .competence h2{
-       margin-top: px;
-       font-size: 2em;
-       margin-right: 15%;
-   }
-   .flex{
-       display: inline-block;
-       justify-content: space-around;
-       padding: 10% ;
-      
-   }
-   .coiff{
-       width: 70% ;
-       margin:5px;
-       margin-left: 13%;
-       padding: 20px;
-       border: 1px solid;
-       background-color: white; 
-       animation: fifi 5s ;   
-   }
-   
-   @keyframes fifi {
-       50% {width: 250px;}
-     }
-   
-   .coiff img{
-       padding-right: 50%;
-   }
-   
-   .coiff h3{
-       padding-left: 35%;
-   }
-   
-   /*  debut parti tarifs  */
-    
-      /* homme */
+        width: 50px;
+        height: 10px;
+        color: white;
+        padding: 5px;
+        padding-bottom: 0.3%;
+        text-decoration: none;
+        background-color: black;
+        border: 1px solid black;
+
+    }
 
 
 
-      #tarifs h2{
+    /*  debut partie competence  */
+
+    .competence {
+        background-color: #333;
+        padding: 0px;
+        width: 140%;
+    }
+
+    .competence h2,
+    .contact h2,
+    .comentaire h2 {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 3em;
+    }
+
+    .competence h2 {
+        margin-top: px;
+        font-size: 2em;
+        margin-right: 15%;
+    }
+
+    .flex {
+        display: inline-block;
+        justify-content: space-around;
+        padding: 10%;
+
+    }
+
+    .coiff {
+        width: 70%;
+        margin: 5px;
+        margin-left: 13%;
+        padding: 20px;
+        border: 1px solid;
+        background-color: white;
+        animation: fifi 5s;
+    }
+
+    @keyframes fifi {
+        50% {
+            width: 250px;
+        }
+    }
+
+    .coiff img {
+        padding-right: 50%;
+    }
+
+    .coiff h3 {
+        padding-left: 35%;
+    }
+
+    /*  debut parti tarifs  */
+
+    /* homme */
+
+
+
+    #tarifs h2 {
         color: black;
         text-align: center;
         padding-top: 0%;
@@ -612,309 +642,311 @@ footer{
     }
 
 
-      #tarifs{
-          width: 100%;
-      }
-   
-   .grand{
-       display: flex;
-       justify-content: space-between;
-       
-   }
-   
-   .goch_droit{
-       display: inline-block;
-       margin-left: 10%;
-       margin-right: 10%;
-       margin-bottom: 4%;
-   }
-   
-   
-    
-   .droit{
-       margin-bottom:%;
-   
-   } 
-      
-   .goch img{
-       width: 60%;
-       height: 95%;
-       margin-left: 20%;
-   }
-   
-   
-   
-   
-   /*  debut femme  */
-   
-   
-   .grande{
-       display: flex;
-       justify-content: space-between;
-       
-   }
-   
-   .gauch_droite{
-       display: inline-block;
-       margin-left: 14%;
-       margin-bottom: 4%;
-       width: %;
-       height: 100%;
-   }
-   
-   
-    
-   .droite{
-       margin-left: 20%;
-       margin-bottom:;
-       
-   } 
-   
-      
-   
-      
-   .gauch img{
-       margin-left: 0%;
-       width: 50%;
-       height: 50%;
+    #tarifs {
+        width: 100%;
+    }
 
-   }
-   .deux{
-       margin-left: 0%;
-       margin-right: 40%;
-       font-size: 1.2em;
-   }
-   .un{
-       font-size: 1.1em;
-   }
-   
-   
-   
-   /* debut enfant */
-   
-   
-   .gaach img{
-       width: 1O0%;
-       height: 100%;
-       margin-left: 0%;
-       padding-top: 0%;
-   
-   }
-   
-   .gaach_droitee{
-       display: inline-block;
-       padding-bottom: %;
-       width: 30%;
-   }
-   
-   .droitee{
-       margin-right: 100%;
-       text-align: ;
-   }
-   
-   
-   
-   /*  debut parti contact  */
-   
-   .contact h1{
-       padding-top: 45px;
-   }
-   
-   .contact{
-       background-color: black;
-       width: 140%;
-       text-align: center;
-       color: white;
-       padding-bottom: 20px;
-   }
-   
-   
-   .conta{
-       display: flex;
-       justify-content: center;
-     
-   }
-   
-   .conta1{
-       text-align:;
-       height: auto;
-       
-   }
-   
-   .cont{
-       display: flex;
-       margin: 5px;
-   }
-   
-   .milio{
-       margin: 13px;
-   }
-   
-   .conta2{
-       margin-bottom: ;
-   }
-   
-   .milio, .rendez{
-       margin: 17px;
-   }
-   .conta1, .conta2{
-       margin: 10px;
-       display: inline-block;
-   }
-   
-   .ecart{
-       padding: 7px;
-   }
-   
-   
-   
-   
-   /* debuit parti nous suivre */
-   
-   .floflo{
-       margin: 15px;
-       text-align: center;
-       margin-left: 45%;
-   }
-   
-   .floflo a{
-       padding-right: 30px;
-       text-decoration: none;
-       -webkit-transition: color 2s;
-       transition: color black  2s;
-   }
-   
-   
-   
-   .floo, a:hover {
-       color: black;
-   }
-   
-   
-   
-   /*  footer  */
-   
-   footer{
-       width: 140%;
-       height: 15px;
-       background-color: black;
-       padding: 6px;
-       text-align: center;
-       color: white;
-   }
-   
-   /*  debuit partie les commentaires */
-   
-   .comentaire{
-       background-color: #333;
-       width: 140%;
-      
-       
-   }
-   
-   
-   
-   .tag{
-       background-color: #C4C4C4;
-       width: 300px;
-       height: 300px;
-       margin-left: 25%;
-       margin-bottom: 60px;
-       animation: mymove 5s;
-       display: inline-block;
-   }
-   
-   @keyframes mymove {
-       50% {width: 400px;}
-     }
-   
-   .comentaire h1{
-       color: white;
-       font-size: 2em;
-       width: 60%;
-       margin-left: 12%;
-   }
-   .tog_tag{
-       display: inline-block;
-       justify-content: space-evenly;
-      
-   }
-   .tag p{
-       padding-top: 5%;
-       padding-left: 5%;
-       padding-right: 5%;
-   } 
-   .tag h3{
+    .grand {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .goch_droit {
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 4%;
+    }
+
+
+
+    .droit {
+        margin-bottom: %;
+
+    }
+
+    .goch img {
+        width: 60%;
+        height: 95%;
+        margin-left: 20%;
+    }
+
+
+
+
+    /*  debut femme  */
+
+
+    .grande {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .gauch_droite {
+        display: inline-block;
+        margin-left: 14%;
+        margin-bottom: 4%;
+        width: %;
+        height: 100%;
+    }
+
+
+
+    .droite {
+        margin-left: 20%;
+        margin-bottom: ;
+
+    }
+
+
+
+
+    .gauch img {
+        margin-left: 0%;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .deux {
+        margin-left: 0%;
+        margin-right: 40%;
+        font-size: 1.2em;
+    }
+
+    .un {
+        font-size: 1.1em;
+    }
+
+
+
+    /* debut enfant */
+
+
+    .gaach img {
+        width: 1O0%;
+        height: 100%;
+        margin-left: 0%;
+        padding-top: 0%;
+
+    }
+
+    .gaach_droitee {
+        display: inline-block;
         padding-bottom: %;
-       padding-left: 60%;
-   }
-   
-   
-   .bl{
-       width: 40%;
-       height: 35%;
-      
-   }
-   
-   
-   .blan{
-       width: 38%;
-       height: 35%;
-       border-radius: %;
-   }
-   
-   
-   .blanc{
-       width: 40%;
-       height: 35%;
-      
-   }
-   
-   
-   
-   
-   /* debut Nos partenaires */
-   
-   
-   
-   .partenaires{
-       text-align: center;
-       margin: 15px;
-       margin-bottom: 45px;
-       margin-left: 45%;
-   }
-   
-   .partenaires img{
-       margin-right: 45px;
-       display: inline-flex;
-   }
-   /*  localisation */
-   
-   
-   
-   .locale iframe{
-       padding-top: 0;
-       width: 140%;
-       height: 50%;
-   }
-   
+        width: 30%;
+    }
+
+    .droitee {
+        margin-right: 100%;
+        text-align: ;
+    }
 
 
-   
+
+    /*  debut parti contact  */
+
+    .contact h1 {
+        padding-top: 45px;
+    }
+
+    .contact {
+        background-color: black;
+        width: 140%;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+
+    .conta {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .conta1 {
+        text-align: ;
+        height: auto;
+
+    }
+
+    .cont {
+        display: flex;
+        margin: 5px;
+    }
+
+    .milio {
+        margin: 13px;
+    }
+
+    .conta2 {
+        margin-bottom: ;
+    }
+
+    .milio,
+    .rendez {
+        margin: 17px;
+    }
+
+    .conta1,
+    .conta2 {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .ecart {
+        padding: 7px;
+    }
+
+
+
+
+    /* debuit parti nous suivre */
+
+    .floflo {
+        margin: 15px;
+        text-align: center;
+        margin-left: 45%;
+    }
+
+    .floflo a {
+        padding-right: 30px;
+        text-decoration: none;
+        -webkit-transition: color 2s;
+        transition: color black 2s;
+    }
+
+
+
+    .floo,
+    a:hover {
+        color: black;
+    }
+
+
+
+    /*  footer  */
+
+    footer {
+        width: 140%;
+        height: 15px;
+        background-color: black;
+        padding: 6px;
+        text-align: center;
+        color: white;
+    }
+
+    /*  debuit partie les commentaires */
+
+    .comentaire {
+        background-color: #333;
+        width: 140%;
+
+
+    }
+
+
+
+    .tag {
+        background-color: #C4C4C4;
+        width: 300px;
+        height: 300px;
+        margin-left: 25%;
+        margin-bottom: 60px;
+        animation: mymove 5s;
+        display: inline-block;
+    }
+
+    @keyframes mymove {
+        50% {
+            width: 400px;
+        }
+    }
+
+    .comentaire h1 {
+        color: white;
+        font-size: 2em;
+        width: 60%;
+        margin-left: 12%;
+    }
+
+    .tog_tag {
+        display: inline-block;
+        justify-content: space-evenly;
+
+    }
+
+    .tag p {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .tag h3 {
+        padding-bottom: %;
+        padding-left: 60%;
+    }
+
+
+    .bl {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+    .blan {
+        width: 38%;
+        height: 35%;
+        border-radius: %;
+    }
+
+
+    .blanc {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+
+
+    /* debut Nos partenaires */
+
+
+
+    .partenaires {
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 45px;
+        margin-left: 45%;
+    }
+
+    .partenaires img {
+        margin-right: 45px;
+        display: inline-flex;
+    }
+
+    /*  localisation */
+
+
+
+    .locale iframe {
+        padding-top: 0;
+        width: 140%;
+        height: 50%;
+    }
+
+
+
+
 }
 
 
 
 
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-
-
-
-
- 
-
-
-}
-
-   
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
