@@ -475,22 +475,21 @@ footer {
         height: 8vh;
         color: white;
         background-color: black;
-        align-items: flex-start;
-        justify-content: space-between;
-        position: fixed;
-        z-index: 30;
+        justify-content: ;
+        position: ;
+        z-index: ;
     }
 
     .flo {
         background-image: url(salon.jpg);
-        width: 140%;
+        width: 100%;
         height: 40vh;
     }
 
 
     .flo h2 {
         text-align: center;
-        padding-top: 30%;
+        padding-top: 50%;
         color: white;
         margin: 0;
         font-size: 1.2em;
@@ -515,8 +514,8 @@ footer {
     }
 
     .lien>a {
-        margin: 3px;
-        display: inline-block;
+        margin: 0px;
+        flex-direction: column;
         text-decoration: none;
         color: white;
         -webkit-transition: color 2s;
@@ -549,8 +548,8 @@ footer {
 
     .franc {
         text-align: center;
-        width: 140%;
-        height: 45vh;
+        width: 99%;
+        height: 30vh;
         margin-right: 10%;
         background-color: white;
         border: 1px solid black;
@@ -579,7 +578,7 @@ footer {
     .competence {
         background-color: #333;
         padding: 0px;
-        width: 140%;
+        width: 100%;
     }
 
     .competence h2,
@@ -750,11 +749,12 @@ footer {
 
     .contact h1 {
         padding-top: 45px;
+        padding-right: 70%;
     }
 
     .contact {
         background-color: black;
-        width: 140%;
+        width: 100%;
         text-align: center;
         color: white;
         padding-bottom: 20px;
@@ -762,14 +762,16 @@ footer {
 
 
     .conta {
-        display: flex;
+        display: inline-block;
         justify-content: center;
+        margin-right: 70%;
 
     }
 
     .conta1 {
-        text-align: ;
-        height: auto;
+        margin-left: 0;
+        margin-right: 90%;
+        height: ;
 
     }
 
@@ -809,7 +811,7 @@ footer {
     .floflo {
         margin: 15px;
         text-align: center;
-        margin-left: 45%;
+        margin-left: 13%;
     }
 
     .floflo a {
@@ -831,7 +833,7 @@ footer {
     /*  footer  */
 
     footer {
-        width: 140%;
+        width: 97%;
         height: 15px;
         background-color: black;
         padding: 6px;
@@ -843,7 +845,7 @@ footer {
 
     .comentaire {
         background-color: #333;
-        width: 140%;
+        width: 100%;
 
 
     }
@@ -852,24 +854,24 @@ footer {
 
     .tag {
         background-color: #C4C4C4;
-        width: 300px;
-        height: 300px;
-        margin-left: 25%;
+        width: 250px;
+        height: 330px;
+        margin-left: 21%;
         margin-bottom: 60px;
-        animation: mymove 5s;
+
         display: inline-block;
     }
 
     @keyframes mymove {
         50% {
-            width: 400px;
+            width: 270px;
         }
     }
 
-    .comentaire h1 {
+    .comentaire h2 {
         color: white;
         font-size: 2em;
-        width: 60%;
+        width: 50%;
         margin-left: 12%;
     }
 
@@ -921,13 +923,16 @@ footer {
     .partenaires {
         text-align: center;
         margin: 15px;
+        width: 30%;
         margin-bottom: 45px;
-        margin-left: 45%;
+        margin-left: 35%;
+
     }
 
     .partenaires img {
         margin-right: 45px;
-        display: inline-flex;
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 
     /*  localisation */
@@ -936,7 +941,7 @@ footer {
 
     .locale iframe {
         padding-top: 0;
-        width: 140%;
+        width: 100%;
         height: 50%;
     }
 
