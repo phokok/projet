@@ -35,7 +35,7 @@ header {
     text-align: center;
     color: white;
     padding-top: 30%;
-    margin: 0;
+    margin: 0px;
     font-size: 5em;
     padding-left: 10px;
     animation-duration: 5s;
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .competence h1 {
-    margin-top: px;
+    
 }
 
 .flex {
@@ -170,8 +170,6 @@ a:hover {
 /* homme */
 
 
-
-
 #tarifs h2 {
     color: black;
     text-align: center;
@@ -195,11 +193,6 @@ a:hover {
 
 
 
-.droit {
-    margin-bottom: %;
-
-}
-
 .goch img {
     width: 60%;
     height: 95%;
@@ -218,6 +211,7 @@ a:hover {
 
 }
 
+
 .gauch_droite {
     display: flex;
     margin-left: 14%;
@@ -228,7 +222,6 @@ a:hover {
 
 .droite {
     margin-left: 20%;
-    margin-bottom: ;
 
 }
 
@@ -307,9 +300,6 @@ a:hover {
     margin: 13px;
 }
 
-.conta2 {
-    margin-bottom: ;
-}
 
 .milio,
 .rendez {
@@ -363,6 +353,7 @@ footer {
 }
 
 /*  debuit partie les commentaires */
+
 
 .comentaire {
     background-color: black;
@@ -468,18 +459,14 @@ footer {
 
 
 @media all and (min-width: 300px) and (max-width: 720px) {
-    body {
-        background-color: ;
-    }
+
 
     header {
         width: 100%;
         height: 8vh;
         color: white;
         background-color: black;
-        justify-content: ;
-        position: ;
-        z-index: ;
+
     }
 
     .flo {
@@ -543,7 +530,6 @@ footer {
 
     .total {
         margin: auto;
-
     }
 
 
@@ -592,7 +578,6 @@ footer {
     }
 
     .competence h2 {
-        margin-top: ;
         font-size: 2em;
 
     }
@@ -664,7 +649,6 @@ footer {
 
 
     .droit {
-        margin-bottom: %;
 
     }
 
@@ -682,7 +666,6 @@ footer {
 
     .grande {
         display: flex;
-        padding: %;
 
     }
 
@@ -691,7 +674,6 @@ footer {
         margin: 0%;
         margin-left: 0%;
         margin-bottom: 4%;
-        width: %;
         height: 100%;
     }
 
@@ -737,13 +719,11 @@ footer {
 
     .gaach_droitee {
         display: inline-block;
-        padding-bottom: %;
         width: 30%;
     }
 
     .droitee {
         margin-right: 100%;
-        text-align: ;
     }
 
 
@@ -773,7 +753,6 @@ footer {
 
     #text {
         width: 90%;
-        height: ;
     }
 
 
@@ -797,7 +776,6 @@ footer {
     }
 
     .conta2 {
-        margin-bottom: ;
     }
 
     .milio,
@@ -902,7 +880,6 @@ footer {
     }
 
     .tag h3 {
-        padding-bottom: %;
         padding-left: 60%;
     }
 
@@ -917,7 +894,6 @@ footer {
     .blan {
         width: 38%;
         height: 35%;
-        border-radius: %;
     }
 
 
@@ -949,6 +925,7 @@ footer {
         flex-wrap: wrap-reverse;
     }
 
+
     /*  localisation */
 
 
@@ -958,8 +935,6 @@ footer {
         width: 100%;
         height: 50%;
     }
-
-
 
 
 }
