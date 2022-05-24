@@ -456,6 +456,495 @@ footer {
 @media all and (max-width: 1020px) {
 
 
+    body{ 
+        position: relative;
+    }
+
+    header {
+        width: 98%;
+        height: 8vh;
+        color: white;
+        background-color: black;
+
+    }
+
+    .flo {
+        background-image: url(salon.jpg);
+        width: 100%;
+        height: 45vh;
+    }
+
+
+    .flo h2 {
+        text-align: center;
+        padding-top: 17%;
+        color: white;
+        margin: 0;
+        font-size: 25px;
+        padding-left: 10px;
+        animation-duration: 5s;
+        animation-name: slidein;
+
+    }
+
+
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 70%;
+        }
+    }
+
+    .lien>a {
+        margin: 0px;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        -webkit-transition: color 2s;
+        transition: color 2s;
+        font-size: 0.1em;
+
+    }
+
+
+    header,
+    .lien>a {
+        padding: 10px;
+    }
+
+
+
+
+
+    .lien,
+    a:hover {
+        color: green;
+    }
+
+    .total {
+        margin: auto;
+    }
+
+
+
+    .franc {
+        text-align: center;
+        width: 99%;
+        height: 30vh;
+        margin-right: 10%;
+        background-color: white;
+        border: 1px solid black;
+        margin-bottom: 35px;
+
+    }
+
+
+
+    .franc a {
+        width: 50px;
+        height: 10px;
+        color: white;
+        padding: 5px;
+        padding-bottom: 0.3%;
+        text-decoration: none;
+        background-color: black;
+        border: 1px solid black;
+
+    }
+
+
+
+    /*  debut partie competence  */
+
+    .competence {
+        background-color: #333;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .competence h2,
+    .contact h2,
+    .comentaire h2 {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 3em;
+    }
+
+    .competence h2 {
+        font-size: 2em;
+
+    }
+
+    .flex {
+        display: inline-block;
+        justify-content: space-around;
+        padding: 10%;
+
+    }
+
+    .coiff {
+        width: 70%;
+        margin: 20px;
+        margin-left: 38%;
+        padding: 20px;
+        border: 1px solid;
+        background-color: white;
+        animation: fifi 5s;
+    }
+
+    @keyframes fifi {
+        50% {
+            width: 250px;
+        }
+    }
+
+    .coiff img {
+        padding-left: 30%;
+
+    }
+
+    .coiff h3 {
+        padding-left: 35%;
+    }
+
+    /*  debut parti tarifs  */
+
+    /* homme */
+
+
+
+    #tarifs h2 {
+        color: black;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 10%;
+        font-size: 3em;
+    }
+
+
+    #tarifs {
+        width: 100%;
+    }
+
+    .grand {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .goch_droit {
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 4%;
+    }
+
+
+
+    .goch img {
+        width: 60%;
+        height: 95%;
+        margin-left: 20%;
+    }
+
+
+
+
+    /*  debut femme  */
+
+
+    .grande {
+        display: flex;
+
+    }
+
+    .gauch_droite {
+        display: inline-block;
+        margin: 0%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+        height: 100%;
+    }
+
+
+
+    .droite {
+        margin: 0%;
+
+    }
+
+
+
+
+    .gauch img {
+        margin-left: 0%;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .deux {
+        margin-left: 0%;
+        margin-right: 40%;
+        font-size: 1.2em;
+    }
+
+    .un {
+        font-size: 1.1em;
+    }
+
+
+
+    /* debut enfant */
+
+
+    .gaach img {
+        width: 100%;
+        height: 100%;
+        margin-left: 20%;
+        padding: 0%;
+
+    }
+
+    .gaach_droitee {
+        display: inline-block;
+        width: 30%;
+    }
+
+    .droitee {
+        margin-right: 100%;
+    }
+
+
+
+    /*  debut parti contact  */
+
+    .contact h1 {
+        padding-top: 45px;
+        padding-right: 70%;
+    }
+
+    .contact {
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+
+    .conta {
+        display: inline-block;
+        justify-content: center;
+        margin-right: 0%;
+
+    }
+
+    #text {
+        width: 100%;
+    }
+
+
+    .conta1 {
+        margin-left: 10%;
+
+    }
+
+    .cont {
+        display: flex;
+        margin: 5px;
+        padding-left: 5%;
+    }
+
+    .milio {
+        margin: 13px;
+        padding: 6%;
+        width: 20%;
+    }
+
+
+    .milio,
+    .rendez {
+        margin: 17px;
+    }
+
+    .conta1,
+    .conta2 {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .ecart {
+        padding: 7px;
+        padding-left: 70%;
+        width: 100%;
+    }
+
+
+
+
+    /* debuit parti nous suivre */
+
+    .floflo {
+        margin: 15px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .floflo a {
+        padding-right: 30px;
+        text-decoration: none;
+        -webkit-transition: color 2s;
+        transition: color black 2s;
+    }
+
+
+
+    .floo,
+    a:hover {
+        color: black;
+    }
+
+
+
+    /*  footer  */
+
+    footer {
+        width: 98%;
+        height: 15px;
+        background-color: black;
+        padding: 6px;
+        text-align: center;
+        color: white;
+    }
+
+    /*  debuit partie les commentaires */
+
+    .comentaire {
+        background-color: #333;
+        width: 100%;
+
+
+    }
+
+
+
+    .tag {
+        background-color: #C4C4C4;
+        width: 250px;
+        height: 330px;
+        margin-left: 52%;
+        margin-bottom: 60px;
+
+        display: inline-block;
+    }
+
+    @keyframes mymove {
+        50% {
+            width: 270px;
+        }
+    }
+
+    .comentaire h2 {
+        color: white;
+        font-size: 2em;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .tog_tag {
+        display: inline-block;
+        justify-content: space-evenly;
+
+    }
+
+    .tag p {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .tag h3 {
+        padding-left: 60%;
+    }
+
+
+    .bl {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+    .blan {
+        width: 38%;
+        height: 35%;
+    }
+
+
+    .blanc {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+
+
+    /* debut Nos partenaires */
+
+
+
+    .partenaires {
+        text-align: center;
+        margin: 15px;
+        width: 30%;
+        margin-bottom: 45px;
+        margin-left: 35%;
+
+    }
+
+    .partenaires img {
+        margin-left: 80px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    /*  localisation */
+
+
+
+    .locale iframe {
+        padding-top: 0;
+        width: 100%;
+        height: 60%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/*  responsive design DE MON SITE WEB FORMELLE width à 300px  */
+
+
+
+
+@media all and (max-width: 300px) {
+
+
     header {
         width: 100%;
         height: 8vh;
@@ -467,16 +956,15 @@ footer {
     .flo {
         background-image: url(salon.jpg);
         width: 100%;
-        height: 40vh;
+        height: 30vh;
     }
 
 
     .flo h2 {
         text-align: center;
-        padding-top: 17%;
+        padding-top: 0%;
         color: white;
-        margin: 0;
-        font-size: 25px;
+        font-size: 10px;
         padding-left: 10px;
         animation-duration: 5s;
         animation-name: slidein;
@@ -929,8 +1417,481 @@ footer {
 
 
 
+/*  responsive design DE MON SITE WEB FORMELLE width à 720px  */
 
 
 
 
-/*  responsive design DE MON SITE WEB FORMELLE width à 300px  */
+@media all and (max-width: 720px) {
+
+
+    header {
+        width: 100%;
+        height: 8vh;
+        color: white;
+        background-color: black;
+
+    }
+
+    .flo {
+        background-image: url(salon.jpg);
+        width: 100%;
+        height: 40vh;
+    }
+
+
+    .flo h2 {
+        text-align: center;
+        padding-top: 24%;
+        color: white;
+        margin: 0;
+        font-size: 25px;
+        padding-left: 10px;
+        animation-duration: 5s;
+        animation-name: slidein;
+
+    }
+
+
+
+    @keyframes slidein {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 70%;
+        }
+    }
+
+    .lien>a {
+        margin: 0px;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        -webkit-transition: color 2s;
+        transition: color 2s;
+        font-size: 0.1em;
+
+    }
+
+
+    header,
+    .lien>a {
+        padding: 10px;
+    }
+
+
+
+
+
+    .lien,
+    a:hover {
+        color: green;
+    }
+
+    .total {
+        margin: auto;
+    }
+
+
+
+    .franc {
+        text-align: center;
+        width: 99%;
+        height: 30vh;
+        margin-right: 10%;
+        background-color: white;
+        border: 1px solid black;
+        margin-bottom: 35px;
+
+    }
+
+
+
+    .franc a {
+        width: 50px;
+        height: 10px;
+        color: white;
+        padding: 5px;
+        padding-bottom: 0.3%;
+        text-decoration: none;
+        background-color: black;
+        border: 1px solid black;
+
+    }
+
+
+
+    /*  debut partie competence  */
+
+    .competence {
+        background-color: #333;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .competence h2,
+    .contact h2,
+    .comentaire h2 {
+        text-align: center;
+        padding-top: 5%;
+        font-size: 3em;
+    }
+
+    .competence h2 {
+        font-size: 2em;
+
+    }
+
+    .flex {
+        display: inline-block;
+        justify-content: space-around;
+        padding: 10%;
+
+    }
+
+    .coiff {
+        width: 70%;
+        margin: 20px;
+        margin-left: 13%;
+        padding: 20px;
+        border: 1px solid;
+        background-color: white;
+        animation: fifi 5s;
+    }
+
+    @keyframes fifi {
+        50% {
+            width: 250px;
+        }
+    }
+
+    .coiff img {
+        padding-left: 28%;
+
+    }
+
+    .coiff h3 {
+        padding-left: 40%;
+    }
+
+    /*  debut parti tarifs  */
+
+    /* homme */
+
+
+
+    #tarifs h2 {
+        color: black;
+        text-align: center;
+        padding-top: 0%;
+        margin-bottom: 10%;
+        font-size: 3em;
+    }
+
+
+    #tarifs {
+        width: 100%;
+    }
+
+    .grand {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .goch_droit {
+        display: inline-block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 4%;
+    }
+
+
+
+    .goch img {
+        width: 60%;
+        height: 95%;
+        margin-left: 20%;
+    }
+
+
+
+
+    /*  debut femme  */
+
+
+    .grande {
+        display: flex;
+
+    }
+
+    .gauch_droite {
+        display: inline-block;
+        margin: 0%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+        height: 100%;
+    }
+
+
+
+    .droite {
+        margin: 0%;
+
+    }
+
+
+
+
+    .gauch img {
+        margin-left: 0%;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .deux {
+        margin-left: 0%;
+        margin-right: 40%;
+        font-size: 1.2em;
+    }
+
+    .un {
+        font-size: 1.1em;
+    }
+
+
+
+    /* debut enfant */
+
+
+    .gaach img {
+        width: 100%;
+        height: 100%;
+        margin-left: 20%;
+        padding: 0%;
+
+    }
+
+    .gaach_droitee {
+        display: inline-block;
+        width: 30%;
+    }
+
+    .droitee {
+        margin-right: 100%;
+    }
+
+
+
+    /*  debut parti contact  */
+
+    .contact h1 {
+        padding-top: 45px;
+        padding-right: 70%;
+    }
+
+    .contact {
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+
+    .conta {
+        display: inline-block;
+        justify-content: center;
+        margin-right: 0%;
+        padding-bottom: 5%;
+
+    }
+
+    #text {
+        width: 100%;
+    }
+
+
+    .conta1 {
+        margin-left: 10%;
+
+    }
+
+    .cont {
+        display: flex;
+        margin: 5px;
+        padding-left: 0%;
+    }
+
+    .milio {
+        margin: 5px;
+        padding: 7%;
+        width: 20%;
+    }
+
+
+    .milio,
+    .rendez {
+        margin: 17px;
+    }
+
+    .conta1,
+    .conta2 {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    .ecart {
+        padding: 7px;
+        padding-left: 70%;
+        width: 100%;
+    }
+
+
+
+
+    /* debuit parti nous suivre */
+
+    .floflo {
+        margin: 15px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .floflo a {
+        padding-right: 30px;
+        text-decoration: none;
+        -webkit-transition: color 2s;
+        transition: color black 2s;
+    }
+
+
+
+    .floo,
+    a:hover {
+        color: black;
+    }
+
+
+
+    /*  footer  */
+
+    footer {
+        width: 97%;
+        height: 15px;
+        background-color: black;
+        padding: 6px;
+        text-align: center;
+        color: white;
+    }
+
+    /*  debuit partie les commentaires */
+
+    .comentaire {
+        background-color: #333;
+        width: 100%;
+
+
+    }
+
+
+
+    .tag {
+        background-color: #C4C4C4;
+        width: 250px;
+        height: 330px;
+        margin-left: 33%;
+        margin-bottom: 60px;
+
+        display: inline-block;
+    }
+
+    @keyframes mymove {
+        50% {
+            width: 270px;
+        }
+    }
+
+    .comentaire h2 {
+        color: white;
+        font-size: 2em;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .tog_tag {
+        display: inline-block;
+        justify-content: space-evenly;
+
+    }
+
+    .tag p {
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .tag h3 {
+        padding-left: 60%;
+    }
+
+
+    .bl {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+    .blan {
+        width: 38%;
+        height: 35%;
+    }
+
+
+    .blanc {
+        width: 40%;
+        height: 35%;
+
+    }
+
+
+
+
+    /* debut Nos partenaires */
+
+
+
+    .partenaires {
+        text-align: center;
+        margin: 15px;
+        width: 30%;
+        margin-bottom: 45px;
+        margin-left: 35%;
+
+    }
+
+    .partenaires img {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+
+    /*  localisation */
+
+
+
+    .locale iframe {
+        padding-top: 0;
+        width: 100%;
+        height: 50%;
+    }
+
+
+}
+
