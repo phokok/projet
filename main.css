@@ -144,14 +144,8 @@ a:hover {
     padding: 20px;
     border: 1px solid;
     background-color: white;
-    animation: fifi 5s infinite;
 }
 
-@keyframes fifi {
-    50% {
-        width: 350px;
-    }
-}
 
 .coiff img {
     padding-left: 20%;
@@ -355,7 +349,6 @@ footer {
 .comentaire {
     background-color: black;
 
-
 }
 
 .tag_tag {
@@ -435,6 +428,8 @@ footer {
 
 .partenaires img {
     margin-right: 45px;
+    width: 101px;
+    height: 116;
 }
 
 /*  localisation */
@@ -458,7 +453,7 @@ footer {
 @media all and (max-width: 1020px) {
 
 
-    body{ 
+    body {
         position: relative;
     }
 
@@ -471,7 +466,7 @@ footer {
     }
 
     .flo {
-        background-image: url(salon.jpg);
+        background-image: url(salon.webp);
         width: 100%;
         height: 45vh;
     }
@@ -597,14 +592,8 @@ footer {
         padding: 20px;
         border: 1px solid;
         background-color: white;
-        animation: fifi 5s;
     }
 
-    @keyframes fifi {
-        50% {
-            width: 250px;
-        }
-    }
 
     .coiff img {
         padding-left: 30%;
@@ -956,7 +945,7 @@ footer {
     }
 
     .flo {
-        background-image: url(salon.jpg);
+        background-image: url(salon.webp);
         width: 100%;
         height: 30vh;
     }
@@ -1081,14 +1070,9 @@ footer {
         padding: 20px;
         border: 1px solid;
         background-color: white;
-        animation: fifi 5s;
     }
 
-    @keyframes fifi {
-        50% {
-            width: 250px;
-        }
-    }
+
 
     .coiff img {
         padding-left: 10%;
@@ -1436,7 +1420,7 @@ footer {
     }
 
     .flo {
-        background-image: url(salon.jpg);
+        background-image: url(salon.webp);
         width: 100%;
         height: 40vh;
     }
@@ -1562,13 +1546,6 @@ footer {
         padding: 20px;
         border: 1px solid;
         background-color: white;
-        animation: fifi 5s;
-    }
-
-    @keyframes fifi {
-        50% {
-            width: 250px;
-        }
     }
 
     .coiff img {
@@ -1896,4 +1873,3 @@ footer {
 
 
 }
-
